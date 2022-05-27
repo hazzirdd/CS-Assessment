@@ -1,6 +1,6 @@
 
 // 1. SUM ZERO
-//Runtime: O(n)
+//Runtime: O(n^2)
 let array = [28, 43, -12, 30, 4, 0, 12]
 
 
@@ -18,7 +18,7 @@ console.log(value)
 
 
 //2. UNIQUE CHARACTERS
-//Runtime: O(n)
+//Runtime: O(n^2)
 const uniqueChars = (str) => {
     let returned = true
   
@@ -51,7 +51,7 @@ const uniqueChars = (str) => {
 
 
   //4. LONGEST WORD
-  // Runtime: O(n2)
+  // Runtime: O(n)
   function longestStringForLoop(arr) {
       let word = "";
       for (let i = 0; i < arr.length; i++) {
